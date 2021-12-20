@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+.logo-img{
+    max-width: 150px;
+}
+.header{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+.menu-link{
+    color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid aquamarine;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero {
+    background: rgba(0, 0, 0, 0.5) url("../images/hero-bg.jpeg") no-repeat top center/cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 46px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero-desc {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.facts-stats{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.facts-item{
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.about{
+    padding: 50px 0;
+}
+.about-title{
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.about-desc{
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.about-box{
+    margin-bottom: 20px;
+    display: flex;
+}
+.about-icon{
+    width: 72px;
+    min-width: 72px;
+    height: 72px;
+    border: 2px solid #2dc997;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: #2dc997;
+    transition: 0.4s;
+}
+.about-box:hover .about-icon {
+    background: #2dc997;
+    color: #fff;
+}
+.about-icon span {
+    font-size: 24px;
+}
+.about-caption {
+    font-size: 18px;
+    color: #111;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.about-info {
+    line-height: 24px;
+    font-size: 14px;
+}
+.about-image{
+    background: url("../images/about-img.jpeg") no-repeat center top;
+    background-size: 120%;
+}
